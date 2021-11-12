@@ -1,5 +1,5 @@
 @isTest
-private class TestLeadsContacts {
+private class LeadsContactsTest {
     
     @isTest public static void checkGetLeads() {
         List<Lead> lead = new List<Lead>();
