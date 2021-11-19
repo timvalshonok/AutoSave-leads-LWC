@@ -17,7 +17,7 @@ export default class LeadsList extends NavigationMixin (LightningElement) {
         recordChange({ newRecord: lead });
     }
 
-    navigateToLead(event){
+    navigateToLead(event) {
         const leadId = event.target.dataset.id;
         this[NavigationMixin.Navigate]({
             type: 'standard__recordPage',
