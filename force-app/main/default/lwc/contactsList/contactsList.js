@@ -4,7 +4,7 @@ import { NavigationMixin } from 'lightning/navigation';
 export default class ContactsList extends NavigationMixin (LightningElement) {
     @api contact;
 
-    navigateToContact(event){
+    navigateToContact(event) {
         var contactId = event.target.dataset.id;
         this[NavigationMixin.Navigate]({
             type: 'standard__recordPage',
